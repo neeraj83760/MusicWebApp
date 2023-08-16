@@ -35,6 +35,11 @@ const songs = [
         name:'metric-1',
         displayName:'FrontRow(Remix)',
         artist:'Metric/Jacinto Design',
+    },
+    {
+        name:'Jugnu',
+        displayName:'Jugnu by Badshah',
+        artist:'Badshah'
     }
 ]
 
