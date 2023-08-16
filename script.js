@@ -171,13 +171,35 @@ if(isPlaying)
 
 }
 
+// set Progress Bar
+
+function setProgressBar(e){
+
+    console.log(e);
+    const width = this.clientWidth;
+    // console.log('Width:' + width);
+    const clickX = e.offsetX; 
+    // console.log('clickX:' + clickX)
+
+    const {duration} = music;
+    // console.log(clickX/width)
+    // console.log((clickX / width) * duration);
+
+    music.currentTime = (clickX / width) * duration;
+
+}
 
 
 // Event Listeners 
 
 prevBtn.addEventListener('click',prevSong)
 nextBtn.addEventListener('click',nextSong)
+// We also need to fire an event once the song is Ended 
+music.addEventListener('ended', nextSong)
+
 music.addEventListener('timeupdate', updateprogressBar)
+
+progressContainer.addEventListener('click', setProgressBar)
 
 
 
