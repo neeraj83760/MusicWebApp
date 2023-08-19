@@ -35,7 +35,8 @@ body {
   width:300px;
   position: relative;
   top: -50px;
-  left: 45px;
+  left: 50px;
+  right: 50px;
 }
 
 .img-container img{
