@@ -1,3 +1,6 @@
+//  Check Audio/Video Documentation from W3schools for better userstanding of events and
+//  Event handling 
+
 const image = document.querySelector('img')
 const title = document.getElementById('title')
 const artist = document.getElementById('artist')
@@ -17,24 +20,19 @@ const nextBtn = document.getElementById('next')
 const songs = [
 
     {
-        name:'jacinto-1',
-        displayName:'Electric Chill Machine',
-        artist:'Jacinto Design',
+        name:'bawla',
+        displayName:'bawla by Badshah',
+        artist:'Badshah',
     },
     {
-        name:'jacinto-2',
-        displayName:'Seven Nation Army (Remix)',
-        artist:'Jacinto Design',
+        name:'Interstellar',
+        displayName:'3:00 AM Sessions',
+        artist:'By Badshah',
     },
     {
-        name:'jacinto-3',
-        displayName:'Goodnight, Disco Queen',
-        artist:'Jacinto Design',
-    },
-    {
-        name:'metric-1',
-        displayName:'FrontRow(Remix)',
-        artist:'Metric/Jacinto Design',
+        name:'3AM',
+        displayName:'Punya Paap',
+        artist:'Divine',
     },
     {
         name:'Jugnu',
