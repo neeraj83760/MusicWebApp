@@ -27,7 +27,7 @@ const songs = [
     {
         name:'Interstellar',
         displayName:'3:00 AM Sessions',
-        artist:'By Badshah',
+        artist:'Badshah',
     },
     {
         name:'3AM',
