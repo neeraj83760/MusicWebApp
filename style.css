@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #0b0c0c3d;
+  background: #dfe7ef;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ body {
 
   height: 500px;
   width: 400px;
-  background: #595655;
+  background: #eef3f7;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0 0 0 0.3);
 
@@ -124,6 +124,7 @@ h3 {
   .player-container{
 
     width: 98vw;
+    box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
     
   }
 

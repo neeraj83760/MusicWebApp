@@ -20,8 +20,8 @@ const nextBtn = document.getElementById('next')
 const songs = [
 
     {
-        name:'bawla',
-        displayName:'bawla by Badshah',
+        name:'Bawla',
+        displayName:'Bawla by Badshah',
         artist:'Badshah',
     },
     {
