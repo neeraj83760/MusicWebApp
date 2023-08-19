@@ -35,7 +35,7 @@ body {
   width:300px;
   position: relative;
   top: -50px;
-  left: 50px;
+  left: 45px;
 }
 
 .img-container img{
@@ -126,7 +126,7 @@ h3 {
   }
 
   .img-container {
-    left: 5px;
+    left: 29px;
   }
 
   h2 {
